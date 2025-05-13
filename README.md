@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align='center'>
+    <img alt='NextJS Todo List Logo' src='/public/logo.png' style='width:80px;height:80px;' />
+</div>
 
-## Getting Started
+# Next Js Todo List (nextjs-todo-list)
 
-First, run the development server:
+Todo web app built with Typescript, Next Js, Shadcn.
+
+## API Used In This Project
+
+- Node Sequelize Todo: [node-sequelize-todo](https://github.com/litojason/node-sequelize-todo)
+
+## Additional Dependencies
+
+Please refer to `package.json`.
+
+- [React Hook Form](https://react-hook-form.com/): manage forms
+- [zod](https://zod.dev/): validation
+- [Shadcn](https://ui.shadcn.com/): UI component library
+- [Tailwind](https://tailwindcss.com/): utility-first CSS framework
+
+## Installation
+
+    git clone https://github.com/litojason/nextjs-todo-list.git
+
+    cd nextjs-todo-list
+
+    yarn
+
+## Setup Env
+
+Create a new file: `.env`. Please copy example below or refer to `.env.sample` file.
+
+    NEXT_PUBLIC_API_URL=https://sample.com
+
+## Run
 
 ```bash
-npm run dev
-# or
+# Start dev
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
