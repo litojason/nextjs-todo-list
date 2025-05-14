@@ -37,7 +37,7 @@ Full screenshots in [/screenshots](./screenshots/) folder.
     </tr>
 </table>
 
-### Table (iPhone Mini)
+### Tablet (iPhone Mini)
 
 <table>
     <tr>
